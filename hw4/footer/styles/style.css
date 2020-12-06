@@ -1,0 +1,30 @@
+footer {
+    padding-top: 110px;
+    height: 460px;
+    background-color:#0b0002;
+    color:#ffff;
+}
+.pictures {
+    height: 80px;
+    width: 80px;
+    background-color: #ff9c00;
+    border-radius: 15px 0px 15px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+}
+h3  {
+    font-size: 24px;
+}
+p {
+    font-size: 14px;
+    padding: 40px 35px 100px 35px;  
+}
+img {
+    margin-top: 25px;
+}
