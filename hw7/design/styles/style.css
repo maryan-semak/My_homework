@@ -1,0 +1,54 @@
+body {
+  background-color: #e2e7ec;
+}
+.conteiner {
+  background-color: #e2e7ec;
+  max-width: 1120px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  margin: 50px auto auto;
+}
+.item_car {
+  /**flex-grow: 1;**/
+  background-image: url(../images/Layer-8.jpg);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  width: 740px;
+  height: 540px; 
+}
+.text_car {
+  padding: 400px 30px 30px 30px ;
+}
+.date_car {
+  font-size: 10px;
+  color: #ffffff;
+}
+.car {
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase; 
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.item {
+  margin-top: 20px;
+  width: 360px;
+  height: 540px;
+  background-color: #ffffff;
+}
+.text {
+  padding: 30px;
+}
+.text img {
+  margin-top: 50px;
+}
+p {
+  font-size: 16px;
+  text-transform: uppercase; 
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.date {
+  font-size: 10px;
+}
