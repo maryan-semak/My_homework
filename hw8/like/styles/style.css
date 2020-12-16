@@ -1,0 +1,100 @@
+body {
+    background-color: #464f54;
+}
+main {
+    margin:  -210px 100px;
+    padding: 47px 0 0 137px;
+    background-color: #ffffff;
+    box-shadow: 0 14px 28px rgba(12, 9, 9, 0.5);
+  }
+  
+.head {
+    width: 876px;
+    height: 187px;
+    margin: 47px 0px 0 auto ;
+    padding: 50px 0 50px 60px;
+    box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+    position: relative;
+    z-index: 2; 
+  }
+  nav {
+    width: 812px;
+    height: 76px;
+    margin: 0px 0 0 auto;
+    background-color: #fbc02d;
+    position: relative;
+    z-index: 2; 
+  }
+.title {
+  color :#777777;
+}  
+.logo {
+    margin: 13px 5px 21px 4px;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.96;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fefefe;
+}
+h1 {
+        
+        height: 54px;
+        margin: 47px auto 21px 0px;
+        font-family: FuturaPT;
+        font-size: 70px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.94;
+        letter-spacing: 4.13px;
+        text-align: left;
+        color: #2a2a2a;
+        text-transform: uppercase;
+      }
+.autor {
+    margin: 240px auto 47px 0px;
+    font-family: ProximaNova;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.38px;
+    text-align: left;
+    color: #b4b4b4;
+    text-transform: uppercase;
+  } 
+
+.question {
+    
+    
+    margin: 21px 56px 55px 0px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2.07;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #8f8f8f;
+  }      
+.paragraf {
+    margin: 21px 56px 55px 0px;
+    background-color: #ffffff;
+    font-family: Georgia;
+    font-size: 27px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 20px;
+  }
