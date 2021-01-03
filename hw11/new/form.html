@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__panel">
+            <div class="tabs model__tabs">
+                <ul class="tabs__nav">
+                    <li class="tabs__item">
+                        <a href="#sign" class="tabs__link">Sign in</a>
+                    </li>
+                    <li class="tabs__item">
+                        <a href="#join" class="tabs__link  tabs__link--active">Join us</a>
+                    </li>
+                    <li class="tabs__davider"></li>
+                </ul>
+                <div class="tabs__body">
+                    <div class="tabs__content" id="sign"> 
+                        <form action="#" method="get">
+                            <div class="form">
+                                <div class="form__controls">
+                                    <label class="form__label" for="Username">Username</label>
+                                    <input class="form__input" minlength="3" type="text" name="Username" id="Username"></input>
+                                    <div class="form__error">error</div>
+                                </div>
+                                <div class="form__controls">
+                                    <label class="form__label" for="Password">Password</label>
+                                    <input class="form__input" required type="password" name="Password" id="Password"></input>
+                                    <div class="form__error">error</div>
+                                </div>
+                                <div class="form__controls form__controls--checkbox">
+                                    <input checked type="checkbox" name="keep" id="keep"></input>
+                                    <label class="form__label form__label--checkbox" for="keep">
+                                        <span class="form__checkbox">&#10004</span>
+                                        Keep me signet in
+                                    </label>
+                                </div>
+                                <div class="forn__controls forn__controls--submit">
+                                    <button class="btn btn-primary">Sign in</button>
+                                </div>
+                                <div class="form__advancsd">
+                                    <a class="form_link" href="">Forgot password</a>
+                                    <a class="form_link" href="#join">Create an account</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tabs__content" id="join">
+                        <form action="#" method="get">
+                            <div class="form__controls">
+                                <label class="form__label" for="UsernameJoim">Username</label>
+                                <input class="form__input" minlength="3" type="text" name="UsernameJoim" id="UsernameJoim"></input>
+                                <div class="form__error">error</div>
+                            </div>
+                            <div class="form__controls">
+                                <label class="form__label" for="PasswordJoin">Password</label>
+                                <input class="form__input" required type="password" name="PasswordJoin" id="PasswordJoin"></input>
+                                <div class="form__error">error</div>
+                            </div>
+                            <div class="form__controls">
+                                <label class="form__label" for="RepeatPasswordJoin">Repeat Password</label>
+                                <input class="form__input" required type="password" name="RepeatPasswordJoin" id="RepeatPasswordJoin"></input>
+                                <div class="form__error">error</div>
+                            </div>
+                            <div class="forn__controls forn__controls--submit">
+                                <button class="btn btn-primary">Join in</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
