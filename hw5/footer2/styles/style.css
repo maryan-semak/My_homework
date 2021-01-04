@@ -1,0 +1,36 @@
+footer {
+    padding-top: 110px;
+    height: 460px;
+}
+.pictures   {
+    height: 60px;
+    width: 60px;
+    background-color: #2a69a6;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.block :hover {
+    border-color:#2a69a6;
+    border: 2px;
+    background-color: #ffffff;
+}
+
+.block {
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    border-color:#2a69a6;
+    border: 2px;
+}
+h3  {
+    font-size: 24px;
+}
+p {
+    font-size: 14px;
+    padding: 40px 35px 100px 35px;  
+}
+img {
+    margin-top: 12px;
+}
