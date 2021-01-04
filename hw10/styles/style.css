@@ -11,9 +11,7 @@ body {
   background-size: cover;
 }
 .rowLeft {
- 
   width: 70%;
-
 }
 .rowLeft__logo {
   margin: 20px auto auto 20px;
@@ -33,50 +31,49 @@ body {
 .rowLeft__circle {
   margin: 80px auto auto auto;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center; 
 }
-.rowLeft__circle-black {
+.rowLeft__circle--black {
   width: 10px;
   height: 10px;
-  background-color: #000000;
   border-radius: 50%;
   margin: 5px;
+  background-color: #000000;
 }
-.rowLeft__circle-red {
+.rowLeft__circle--red {
   width: 10px;
   height: 10px;
   background-color: #ed3333;
   border-radius: 50%;
   margin: 5px;
 }
-.rowLeft__circle-vhite {
+.rowLeft__circle--vhite {
   width: 10px;
   height: 10px;
   background-color: #ffffff;
   border-radius: 50%;
   margin: 5px;
 }
-.rowLeft__circle-blue {
+.rowLeft__circle--blue {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: #29e3ea;
   margin: 5px;
 }
-.rowLeft__circle-black:hover {
+.rowLeft__circle--black:hover {
   opacity: 0.46;
   border: solid 2px #e1e1e1;
 }
-.rowLeft__circle-blue:hover {
+.rowLeft__circle--blue:hover {
   opacity: 0.46;
   border: solid 2px  #e1e1e1;
 }
-.rowLeft__circle-vhite:hover {
+.rowLeft__circle--vhite:hover {
   opacity: 0.46;
   border: solid 2px  #e1e1e1;
 }
-.rowLeft__circle-red:hover {
+.rowLeft__circle--red:hover {
   opacity: 0.46;
   border: solid 2px  #e1e1e1;
 }
@@ -106,7 +103,6 @@ body {
   text-align: left;
   color: rgba(225, 225, 225, 0.54);
 }
-
 .container {
   margin: auto;
   display: flex;
@@ -134,7 +130,7 @@ body {
 .rowRight__button {
   margin-top: 30px;
 }
-.rowRight__button__botton {
+.rowRight__button--btn {
   /** width: 70px;
    height: 20px;*/
    font-family: Roboto Mono;
@@ -154,7 +150,7 @@ body {
 .rowRight__button__botton:hover {
   opacity: 0.26;
 } 
- .rowRight__select-sel {
+ .rowRight__select--sel {
   width: 69px;
   height: 32px;
   border: solid 1px #e1e1e1;
