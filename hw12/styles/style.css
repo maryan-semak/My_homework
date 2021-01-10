@@ -154,4 +154,6 @@
 .footer__img {
   margin: 20px;
 }
-
+@media screen and (max-width:420px) {
+  
+}
