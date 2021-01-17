@@ -1,0 +1,95 @@
+body {
+  font-family: $font-family;
+  font-weight: 300;
+  background-color: #f2f2f2;
+  font-size: 18px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.header {
+  background-color: $primary-color;
+  color:$secondary-font-color;   
+&__top 
+  { background-color: $secondary-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  }
+&__buttons {
+  margin: 20px 0 20px 20px ;
+}
+&__slogan {
+  margin-top: 13px;
+  font-size:13px;
+}   
+&__main {
+  @include align-center ;
+  text-align:center;
+  position: relative;
+}
+&__icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+&_title {
+  width: 80%;
+  margin-top: 110px;
+  font-size:50px;
+  text-transform: uppercase;
+}
+&_subtitle {
+  width: 80%;
+  margin-top: 25px ;
+  font-size:16px;
+  text-transform: uppercase;
+}
+&_logo {
+  margin-top: 110px ;
+  width:150px;
+  height:150px;
+  background-color:$secondary-font-color;
+  border:2px; 
+  border-radius: 50%;
+  outline:#5397fe 2px;
+}
+&__button {
+  margin-top: 80px;
+  width:205px;
+  height: 54px;
+  border-radius: 27px;
+  background-color:$secondary-font-color;
+  color:$primary-color; 
+  font-size:16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+&__arrow {
+  text-align:center;
+  margin: 100px auto  25px auto;
+  font-size:22px;  
+}
+}
+.about {
+  @include align-center ;
+  text-align:center;
+  font-size:16px;
+  
+  &__text {
+      margin-top: 70px;
+      margin-bottom:50px;
+      color:$descr-font-color;
+  }
+}
+.title {
+  margin-top: 100px;
+  font-size:50px;
+  color:$primary-font-color;
+}
+.footer__button {
+  margin-top: 37px;
+}

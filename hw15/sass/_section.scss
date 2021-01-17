@@ -1,0 +1,23 @@
+.section {
+  padding: 67px 0;
+  text-align:center;
+
+  &--service {
+    background-color: $tr-color;
+  }
+  &--clients{
+    background-color: $tr-color;
+  }
+}
+.footer {
+  background-color:$primary-color;
+  &__text {
+    margin-top: 20px;
+    font-size:36px;
+    color:$secondary-font-color;  
+  }
+  &__text--bold {
+    font-weight: 700;
+  }
+  }
+
