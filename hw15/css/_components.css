@@ -1,0 +1,114 @@
+/*.nav {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+
+    &:after {
+      content: ".";
+      position: absolute;
+      font-size: 18px;
+      top: -50%;
+      transform: translate(100%, 25%);
+      color: #494e62;
+      right: -12px;
+    }
+
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.services {
+  margin-top: 50px;
+
+  &__icon {
+    @include primary-border(2px);
+    @include align-center;
+    width: 59px;
+    min-width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    font-size: 32px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__content {
+    margin-left: 20px;
+  }
+}
+
+.toggles {
+  &__button {
+    @include primary-border(1px);
+    color: $descr-font-color;
+    border-radius: 5px;
+    background: none;
+    padding: 2px 8px;
+    margin: 0 8px 20px 0;
+
+    &--active {
+      border-color: #fff;
+      color: #fff;
+    }
+  }
+}
+
+.porfolio-card {
+  margin-bottom: 24px;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+
+  &__img {
+    margin-bottom: 17px;
+  }
+
+  &--member {
+    margin-top: 49px;
+  }
+}
+
+.contact-list {
+  margin-top: 30px;
+
+  &__item {
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+.copyright {
+  margin: 0;
+}
+
+.mobile-nav {
+  display: none;
+  color: #fff;
+}
+*/
