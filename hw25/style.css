@@ -1,0 +1,44 @@
+h2 {
+    margin-top:  50px ;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+h1 {
+    text-align: center;
+    font-size: 58px;
+    text-transform: uppercase;
+    padding: 20px 200px;
+}
+img {
+    padding: 50px;
+    width: 250px;
+    height: 250px;
+}
+.slide {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 36px;
+    color :white;
+    font-weight: 100;
+    background:grey;
+    border: solid 1px grey ;
+    border-radius: 50%;
+}
+.figure {
+    position: absolute;
+    text-align: center;
+    color: #e98457;
+    font-size: 36px;
+    font-weight: 900;
+    right: 300px;
+}
+.figure-t {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 100px;
+}
