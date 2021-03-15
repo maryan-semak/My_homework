@@ -1,0 +1,23 @@
+.header {
+  background-color: $secondary-color;
+  padding: 34px 0;
+  border-bottom: 6px solid #323746;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.footer {
+  background-color: $secondary-color;
+  color: $primary-font-color;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+  }
+}

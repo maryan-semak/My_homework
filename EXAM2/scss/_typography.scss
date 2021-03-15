@@ -1,0 +1,27 @@
+.title {
+  font-weight: 900;
+  color: $primary-font-color;
+  margin-bottom: 33px;
+  line-height: 18px;
+  font-size: 30px;
+}
+
+.lead {
+  line-height: 30px;
+  color: $descr-font-color;
+  font-weight: 300;
+}
+
+.heading {
+  font-weight: 900;
+  margin-bottom: 18px;
+  color: $primary-font-color;
+  font-size: 18px;
+}
+
+.descr {
+  color: $descr-font-color;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+}

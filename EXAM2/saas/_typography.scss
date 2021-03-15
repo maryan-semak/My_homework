@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Gotham;
+  src: url('/fonts/gothambold/gothambold1.eot');
+}
+.header {
+  color: #ffffff ;
+  font-family: Gotham;
+  &__title {
+  color: #ffffff ;
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+  &__subtitle {
+  color: #ffffff ;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+}
+.content-one__title {
+  font-family: Gotham;
+  font-size: 44px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.content-one__subtitle {
+  font-size: 22px;
+}
+h3 {
+  font-family: Gotham;
+  font-size: 22px;
+  text-transform: uppercase;
+}

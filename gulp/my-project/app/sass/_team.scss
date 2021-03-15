@@ -1,0 +1,22 @@
+.team {
+    background-color: $main-background-color;
+    
+    &__items {
+        text-align: center;
+    }
+    &__techno {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     margin: 20px ;
+    
+    }
+    &__main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      
+    }
+    &__content {
+        text-align: center;
+        
+    } 
+}

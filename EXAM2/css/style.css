@@ -1,0 +1,225 @@
+.section__header {
+  background: linear-gradient(to bottom left, #7e5aff, #55b7ff); }
+
+.section__slider {
+  background: linear-gradient(to bottom left, #3f81d5, #55b7ff); }
+
+.section__map {
+  max-width: 100%; }
+
+.section__form {
+  margin-top: -200px;
+  max-width: 770px;
+  max-height: 450px;
+  margin: 0px auto;
+  z-index: 2; }
+
+.section__footer {
+  background: linear-gradient(to bottom left, #7e5aff, #55b7ff);
+  color: #ffffff; }
+
+.content__btn {
+  width: 190px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #ffffff; }
+
+.content__devider {
+  margin: 100px auto 15px auto;
+  width: 100px;
+  height: 1px;
+  background-color: #000; }
+
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+.social-links__item {
+  width: 40px;
+  height: 40px;
+  border: solid 1px #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 8px;
+  margin: 0px 20px auto 20px; }
+
+.social-links__item:hover {
+  border-color: violet; }
+
+.nav__items {
+  margin-left: 20px;
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700; }
+  .nav__items:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: -15px;
+    top: 6px;
+    border: solid 1px  #ffffff;
+    border-radius: 50%; }
+
+.nav__items:hover:before {
+  background-color: #ffffff; }
+
+.slide .slick-dots {
+  width: 25px;
+  bottom: auto;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%); }
+
+body {
+  font-weight: 300;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  text-align: center; }
+
+.content-one__right {
+  text-align: left;
+  padding: 100px; }
+
+.content__left {
+  text-align: left;
+  padding: 100px; }
+
+.content__date {
+  margin-top: 60px;
+  font-size: 18px;
+  font-style: italic; }
+
+.footer__block {
+  margin-top: 200px; }
+
+.footer__content {
+  margin-top: 40px;
+  margin-bottom: 210px; }
+
+.footer__socials {
+  margin-top: 210px; }
+
+.content-one__bg {
+  background-color: #3f81d5;
+  max-width: 630px;
+  height: auto; }
+
+.content__img--left {
+  background: url(/img/monticello.jpg) no-repeat/cover;
+  max-width: 630px;
+  margin: 100px auto auto 0px; }
+
+.form__main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: left;
+  width: 100%;
+  margin: 80px 60px; }
+
+.form__form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: left; }
+
+.form__adress p > i {
+  color: #7e5aff; }
+
+.slide-horizontal {
+  width: 90%;
+  margin: 100px auto; }
+
+.slider__devider {
+  margin: 100px auto 15px auto;
+  width: 100px;
+  height: 1px;
+  background-color: #ffffff; }
+
+.slider__item {
+  width: 312px;
+  height: 610px;
+  background-color: #ffffff;
+  margin: 100px 20px 200px 20px; }
+
+.item__content {
+  padding: 30px;
+  text-align: left; }
+
+.item__img {
+  width: 100%;
+  height: 240px; }
+
+.item__person {
+  margin-bottom: 30px; }
+
+.item__title {
+  font-family: Gotham;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+p {
+  font-size: 16px;
+  margin-bottom: 30px; }
+
+.person__foto {
+  border-radius: 30px; }
+
+.person__date {
+  font-family: Gotham;
+  font-size: 14px;
+  text-align: left;
+  color: #55b7ff; }
+
+.slide-horizontal .slick-dots {
+  bottom: 140px; }
+
+@font-face {
+  font-family: Gotham;
+  src: url("/fonts/gothambold/gothambold1.eot"); }
+
+.header {
+  color: #ffffff;
+  font-family: Gotham; }
+  .header__title {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .header__subtitle {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase; }
+
+.content-one__title {
+  font-family: Gotham;
+  font-size: 44px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.content-one__subtitle {
+  font-size: 22px; }
+
+h3 {
+  font-family: Gotham;
+  font-size: 22px;
+  text-transform: uppercase; }
+
+.header__top {
+  padding: 75px; }
+
+.header__arrow {
+  width: 40px;
+  height: 40px;
+  border: solid 1px #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 8px;
+  margin: 320px auto 50px auto; }

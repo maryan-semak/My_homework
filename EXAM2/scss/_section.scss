@@ -1,0 +1,22 @@
+.section {
+  padding: 67px 0;
+
+  &--slider {
+    background-color: $primary-color;
+  }
+
+  &--portfolio {
+    background-color: $secondary-color;
+  }
+
+  &--contact {
+    background-color: $primary-color;
+
+    .title,
+    .lead,
+    .heading,
+    .descr {
+      color: #fff;
+    }
+  }
+}

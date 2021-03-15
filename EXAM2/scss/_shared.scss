@@ -1,0 +1,17 @@
+.social-links {
+  display: flex;
+
+  &__item {
+    @include primary-border(1px);
+    @include align-center;
+    color: $primary-font-color;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 7px;
+
+    a {
+      color: $primary-font-color;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.services {
+    text-align: center;
+    &__title {
+        margin-top: 60px;
+        
+    }
+    &__main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    &__item {
+        width: 30%;
+        text-align: center;
+        padding: 10px;
+    }
+    &__img {
+        margin-top: 70px;
+    }
+    
+    
+}
+.item__title {
+    margin: 25px auto 20px auto;
+}

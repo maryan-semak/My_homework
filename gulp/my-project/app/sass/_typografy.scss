@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat:ital,wght@0,700;1,400&family=Roboto+Slab&display=swap');
+
+.title__main {
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    line-height: 75px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    
+  }
+.subtitle {
+    font-size: 16px;
+    color:$second-font-color;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+  }
+  .item--title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+//font-family: 'EB Garamond', serif;
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Roboto Slab', serif;

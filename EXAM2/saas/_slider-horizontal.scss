@@ -1,0 +1,52 @@
+.slide-horizontal {
+  width: 90%;
+  margin:100px auto ;
+}
+.slider__devider {
+  margin: 100px auto 15px auto;
+  width: 100px;
+  height: 1px;
+  background-color: #ffffff;
+}
+.slider__item{
+    width: 312px;
+    height: 610px;
+    background-color: #ffffff;
+    margin: 100px 20px 200px 20px;
+  }
+  
+  .item__content {
+    padding: 30px;
+    text-align: left;
+  }
+  .item__img {
+    width: 100%;
+    height: 240px;
+  }
+  .item__person {
+    margin-bottom: 30px;
+  }
+  .item__title {
+  font-family: Gotham;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .person__foto {
+      border-radius: 30px;
+  }
+  .person__date {
+  font-family: Gotham;
+  font-size: 14px;
+  text-align: left;
+  color: #55b7ff;
+  }
+  .slide-horizontal .slick-dots { 
+  bottom: 140px;
+  }  
+  
+  

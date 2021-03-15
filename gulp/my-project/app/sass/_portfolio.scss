@@ -1,0 +1,43 @@
+.portfolio {
+    padding-top: 70px;
+    background-color: $main-background-color;
+&__main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+    padding: 110px 50px;
+}
+&__img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+
+&__caption {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+ &--title {
+     font-size: 18px;
+     color: $main-font-color;
+     font-weight: 700;
+     font-family: 'Montserrat', sans-serif;
+     margin-bottom: 10px;
+
+ }
+ &--subtitle {
+    font-size: 14px;
+    color:$second-font-color;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 5px;
+ }
+
+}
+}

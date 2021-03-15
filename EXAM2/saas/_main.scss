@@ -1,0 +1,34 @@
+body {
+  font-weight: 300;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  text-align: center;
+}
+.content-one__right {
+  text-align: left;
+  padding: 100px;
+}
+.content {
+&__left {
+  text-align: left;
+  padding: 100px;
+}
+&__date {
+  margin-top: 60px;
+  font-size: 18px;
+  font-style: italic;
+}
+}
+.footer {
+&__block {
+  margin-top: 200px;
+}
+&__content {
+  margin-top: 40px;
+  margin-bottom: 210px;
+}
+&__socials {
+  margin-top: 210px;
+}
+}
+

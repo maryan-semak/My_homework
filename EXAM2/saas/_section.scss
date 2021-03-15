@@ -1,0 +1,27 @@
+.section {
+  
+  &__header {
+      background: linear-gradient(to bottom left, $secondary-color, $primary-color);
+      
+    }
+  
+  &__slider {
+      background: linear-gradient(to bottom left, $third-color, $primary-color);  
+  }
+  &__map {
+   max-width: 100%;
+  }
+  &__form {
+    //position: absolute;
+    margin-top: -200px;
+    max-width: 770px;
+    max-height: 450px;
+    margin: 0px auto ;
+    z-index: 2;
+  }
+  &__footer {
+    background: linear-gradient(to bottom left, $secondary-color, $primary-color);
+    color: #ffffff;
+ } 
+ }
+
