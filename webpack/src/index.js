@@ -1,0 +1,20 @@
+import $ from 'jquery';
+//import html from '../index.html';
+import   {sayHello}  from './hello';
+
+
+
+$(function () {
+    $('#title').text('Web');
+    sayHello('Ira')
+})
+/*function component() {
+    const element = document.createElement('div');
+  
+    // Lodash, currently included via a script, is required for this line to work
+    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  
+    return element;
+  }
+  
+  document.body.appendChild(component());*/
