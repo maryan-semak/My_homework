@@ -1,14 +1,11 @@
-import React from 'react';
-import './Navigation.css'
+import React from 'react' ; 
+import './Navigation.css';
+import List from '../List/List.jsx'
+
 export const Navigation = () => {
     return (
-        <div className='nav'>
-            <ul>
-                <li>Home</li>
-                <li>Main</li>
-                <li>Contect</li>
-                <li>About</li>
-            </ul>
+        <div className="nav">
+               <List data={[{name:'Home'},{name:'Works'},{name:"Contact"},{name:'About'}]}/>
         </div>
     )
 }
